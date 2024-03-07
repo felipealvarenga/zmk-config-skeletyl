@@ -117,19 +117,19 @@
 
         qwerty {
             bindings = <
-    &kp Q       &kp W       &kp E       &kp R           &kp T           &kp Y       &kp U       &kp I       &kp O           &kp P
-    &hmp LGUI A &hm LALT S  &hm LSHFT D &hm LCTRL F     &kp G           &kp H       &hm LCTRL J &hm LSHFT K &hm LALT L      &hmp LGUI SQT
-    &kp Z       &hm RALT X  &kp C       &kp V           &kp B           &kp N       &kp M       &kp COMMA   &hm RALT DOT    &kp FSLH
-                            &kp ESC     &lt NUM TAB     &lt SYM SPACE   &kp BSPC    &lt NAV RET &lt FUN DEL
-            >;
+    &kp Q       &kp W       &kp E       &kp R           &kp T           &kp Y       &kp U        &kp I       &kp O           &kp P
+    &hmp LGUI A &hm LALT S  &hm LSHFT D &hm LCTRL F     &kp G           &kp H       &hm LCTRL J  &hm LSHFT K &hm LALT L      &hmp LGUI SQT
+    &kp Z       &hm RALT X  &kp C       &kp V           &kp B           &kp N       &kp M        &kp COMMA   &hm RALT DOT    &kp FSLH
+                            &kp ESC     &lt NUM TAB     &lt SYM SPACE   &kp RET     &lt NAV BSPC &lt FUN DEL
+            >;  
         };
 
         colemak_dh {
             bindings = <
-    &kp Q       &kp W       &kp F       &kp P           &kp B           &kp J       &kp L       &kp U       &kp Y           &kp SQT
-    &hmp LGUI A &hm LALT R  &hm LSHFT S &hm LCTRL T     &kp G           &kp M       &hm LCTRL N &hm LSHFT E &hm LALT I      &hmp LGUI O
-    &kp Z       &hm RALT X  &kp C       &kp D           &kp V           &kp K       &kp H       &kp COMMA   &hm RALT DOT    &kp FSLH
-                            &kp ESC     &lt NUM TAB     &lt SYM SPACE   &kp BSPC    &lt NAV RET &lt FUN DEL
+    &kp Q       &kp W       &kp F       &kp P           &kp B           &kp J       &kp L        &kp U       &kp Y           &kp SQT
+    &hmp LGUI A &hm LALT R  &hm LSHFT S &hm LCTRL T     &kp G           &kp M       &hm LCTRL N  &hm LSHFT E &hm LALT I      &hmp LGUI O
+    &kp Z       &hm RALT X  &kp C       &kp D           &kp V           &kp K       &kp H        &kp COMMA   &hm RALT DOT    &kp FSLH
+                            &kp ESC     &lt NUM TAB     &lt SYM SPACE   &kp RET     &lt NAV BSPC &lt FUN DEL
             >;
         };
 
